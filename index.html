@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik-Dveloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ritik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ritik</span>
+                and I am a passionate
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="my_img.png" alt="Ritik's Profile Image">
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="work-section" id="experience">
+            <h2>Work Experience</h2>
+
+            <div class="experience">
+                <div class="company-header">
+                    <h3>💼 Edubridge</h3>
+                    <span class="role">Full Stack Web Development Intern (Remote)</span>
+                    <span class="date">Feb 2025 - May 2025</span>
+                </div>
+
+                <ul>
+                    <li>Built responsive front-end components using <strong>HTML</strong>, <strong>CSS</strong>,
+                        <strong>JavaScript</strong>, <strong>Bootstrap</strong>, and <strong>Tailwind CSS</strong>.
+                    </li>
+                    <li>Developed and tested <strong>REST APIs</strong> using <strong>Node.js</strong> and
+                        <strong>Express.js</strong>, integrated with a <strong>MySQL</strong> database.
+                    </li>
+                    <li>Collaborated in team projects using <strong>Git</strong> and <strong>GitHub</strong> for version
+                        control.</li>
+                    <li>Enhanced UI performance and usability through efficient component design and clean code
+                        practices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Ritik Developer</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-rights">
+                Copyright &#169; www.ritiksportfolio.com | All rights reserved
+
+            </div>
+        </footer>
+
+    </main>
+    <script src="app.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script><script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer', 'DSA Enthusiast'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
