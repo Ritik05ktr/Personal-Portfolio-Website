@@ -2,6 +2,7 @@
 A modern, responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and experience as a Web Developer and DSA Enthusiast.
 
 🛠 Tech Stack
+
 HTML5
 CSS3
 JavaScript
